@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Tabel Elemen HTML</h2>
+        <table>
+            <tr>
+                <th>Tag</th>
+                <th>Deskripsi</th>
+            </tr>
+            <tr>
+                <td>&lt;h1&gt; - &lt;h6&gt;</td>
+                <td>Digunakan untuk judul atau heading.</td>
+            </tr>
+            <tr>
+                <td>&lt;p&gt;</td>
+                <td>Digunakan untuk paragraf teks.</td>
+            </tr>
+            <tr>
+                <td>&lt;a&gt;</td>
+                <td>Membuat hyperlink ke halaman lain.</td>
+            </tr>
+            <tr>
+                <td>&lt;img&gt;</td>
+                <td>Menampilkan gambar pada halaman web.</td>
+            </tr>
+            <tr>
+                <td>&lt;table&gt;</td>
+                <td>Membuat tabel di dalam HTML.</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
